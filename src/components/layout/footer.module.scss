@@ -2,7 +2,7 @@
 @import '../../styles/abstract/custom-mixins';
 
 .bg {
-    background-image: url('/images/footer/bg/1-1-1920x454.png');
+    background-image: url('/images/footer/bg/footer.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 100px;
@@ -14,10 +14,10 @@
 }
 .desc {
     margin-bottom: 25px;
-    color: #cfe1ff;
+    color: #F7F7FF;
     font-size: 16px;
 }
-.inquary {
+.inquiry {
     &_info {
         margin-bottom: 5px;
         color: $primary;
@@ -25,10 +25,10 @@
         line-height: 1.2;
     }
     &_number {
-        color: #cfe1ff;
+        color: #F7F7FF;
         font-size: 20px;
         &:hover {
-            color: $white;
+            color: $primary;
         }
     }
 }
@@ -37,7 +37,7 @@
         .widget {
             &_address,
             &_number {
-                color: #cfe1ff;
+                color: #F7F7FF;
             }
             &_address {
                 margin-bottom: 5px;
@@ -62,7 +62,7 @@
                 padding-bottom: 15px;
             }
             a {
-                color: #cfe1ff;
+                color: #F7F7FF;
                 font-size: 18px;
                 &:hover {
                     color: $white;
@@ -72,9 +72,15 @@
     }
 }
 .bottom {
-    background-color: #00225a;
+    background-color: #000305;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+.comand {
+    color: #f56b2e !important;
+    &:hover {
+        color: #ffa21a !important;
+    }
 }
 .social {
     display: flex;
@@ -89,12 +95,12 @@
             margin-right: 20px;
         }
         a {
-            color: #cfe1ff;
+            color: #F7F7FF;
             padding: 5px 10px;
             display: flex;
             align-items: center;
             &:hover {
-                color: $primary;
+                color: $secondary;
             }
         }
     }
@@ -111,7 +117,7 @@
             flex-wrap: wrap;
         }
         &.text {
-            color: #cfe1ff;
+            color: #F7F7FF;
         }
         &.icon {
             color: #dc3545;
@@ -119,7 +125,7 @@
             margin-right: 5px;
         }
         a {
-            color: #cfe1ff;
+            color: #F7F7FF;
             margin-left: 5px;
             &:hover {
                 color: #dc3545;

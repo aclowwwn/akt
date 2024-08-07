@@ -27,19 +27,19 @@ function Footer({ footerItems }) {
                                                 __html: footerItem?.excerpt,
                                             }}
                                         />
-                                        <div className={classes.inquary}>
+                                        <div className={classes.inquiry}>
                                             <h2
-                                                className={classes.inquary_info}
+                                                className={classes.inquiry_info}
                                             >
-                                                {footerItem?.inquary}
+                                                {footerItem?.inquiry}
                                             </h2>
                                             <Link
                                                 href="tel://+12345-879-854"
                                                 className={
-                                                    classes.inquary_number
+                                                    classes.inquiry_number
                                                 }
                                             >
-                                                {footerItem?.inquaryNumber}
+                                                {footerItem?.inquiryNumber}
                                             </Link>
                                         </div>
                                     </div>
@@ -167,13 +167,13 @@ function Footer({ footerItems }) {
                                     <div className={classes.copyright}>
                                         <span className={classes.text}>
                                             © {new Date().getFullYear()}{' '}
-                                            OxyBuild Made with
+                                            AKT Est. Made with
                                             <span className={classes.icon}>
                                                 <FaIcons.FaHeart />
                                             </span>
                                             by
-                                            <a href="https://hasthemes.com/">
-                                                HasThemes
+                                            <a href="https://com-and.io/" className={classes.comand}>
+                                                com&
                                             </a>
                                         </span>
                                     </div>

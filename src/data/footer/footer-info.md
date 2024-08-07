@@ -3,8 +3,8 @@ id: 'footer-01'
 footerLogo: '/images/logo/white.png'
 footerLogoAlt: 'Footer Logo'
 excerpt: 'Construction of itself, because it is are  <br/> but because some proper style design is occur in toil and pain pleasure'
-inquary: 'For inquary'
-inquaryNumber: '+12345 879 854'
+inquiry: 'For inquiry'
+inquiryNumber: '+12345 879 854'
 informationTitle: 'Information'
 informationList:
     [
