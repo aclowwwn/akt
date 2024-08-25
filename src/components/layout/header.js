@@ -279,7 +279,8 @@ function Header() {
                     <div className={`${classes.fixed__logo} d-none d-lg-flex`}>
                         <Link href="/" className={classes.logo}>
                             <img
-                                src="/images/logo/akt-light.gif"
+                                style={{position: "relative", zIndex: 999, marginTop: 90}}
+                                src="/images/logo/logo-new.gif"
                                 alt="Header Dark Logo"
                             />
                         </Link>

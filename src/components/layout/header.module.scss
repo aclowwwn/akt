@@ -45,7 +45,8 @@
     }
 }
 .main {
-    background-color: $secondary;
+    // background-color: $secondary;
+    background-image: url('/images/header/header.png');
 }
 .menu {
     &__list {
@@ -148,10 +149,12 @@
         justify-content: center;
     }
 }
+
 /* -Fixed Logo- */
 .fixed {
     &__logo {
         background-color: $secondary;
+    background-image: url('/images/header/header.png');
         width: 28%;
         height: 100%;
         position: absolute;
