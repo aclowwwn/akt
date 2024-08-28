@@ -48,11 +48,6 @@ export function getStaticProps() {
     const projectSectionItems = getAllItems('project-section');
     const projects = getAllItems('projects');
     const LatestProject = getFeaturedItems(projects);
-    const teamSectionItems = getAllItems('team-section');
-    const teamItems = getAllItems('team');
-    const testimonialSectionItems = getAllItems('testimonial-section');
-    const testimonialItems = getAllItems('testimonial');
-    const newsletterItems = getAllItems('newsletter');
     const footerItems = getAllItems('footer');
 
     return {
@@ -61,11 +56,6 @@ export function getStaticProps() {
             bannerThreeItems,
             projectSectionItems,
             projects: LatestProject,
-            teamSectionItems,
-            testimonialItems,
-            testimonialSectionItems,
-            teamItems,
-            newsletterItems,
             footerItems,
         },
     };
@@ -76,11 +66,6 @@ AboutPage.propTypes = {
     bannerThreeItems: PropTypes.instanceOf(Object).isRequired,
     projects: PropTypes.instanceOf(Object).isRequired,
     projectSectionItems: PropTypes.instanceOf(Object).isRequired,
-    teamItems: PropTypes.instanceOf(Object).isRequired,
-    newsletterItems: PropTypes.instanceOf(Object).isRequired,
-    teamSectionItems: PropTypes.instanceOf(Object).isRequired,
-    testimonialItems: PropTypes.instanceOf(Object).isRequired,
-    testimonialSectionItems: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,
 };
 

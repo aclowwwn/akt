@@ -24,7 +24,7 @@ function HomePage({
                 <title>Home - AKT</title>
                 <meta
                     name="description"
-                    content="AKT - Al Katheery Trading & Consulting"
+                    content="AKT - Al Katheery Trading & Consulting Est."
                 />
             </Head>
             <Hero heroItems={heroItems} />
@@ -38,8 +38,6 @@ function HomePage({
                 services={services}
                 serviceSectionItems={serviceSectionItems}
             />
-            {/* <Counter /> */}
-            {/* <Newsletter newsletterItems={newsletterItems} /> */}
             <Footer footerItems={footerItems} />
         </>
     );
@@ -52,19 +50,9 @@ export function getStaticProps() {
     const projectSectionItems = getAllItems('project-section');
     const projects = getAllItems('projects');
     const LatestProject = getFeaturedItems(projects);
-    const brandItems = getAllItems('brand');
     const services = getAllItems('services');
     const serviceSectionItems = getAllItems('service-section');
     const HomePageServices = getFeaturedItems(services);
-    const bannerTwoItems = getAllItems('banner-2');
-    const teamItems = getAllItems('team');
-    const teamSectionItems = getAllItems('team-section');
-    const testimonialItems = getAllItems('testimonial');
-    const testimonialSectionItems = getAllItems('testimonial-section');
-    const blogSectionItems = getAllItems('blog-section');
-    const blogs = getAllItems('blogs');
-    const LatestBlog = getFeaturedItems(blogs);
-    const newsletterItems = getAllItems('newsletter');
     const footerItems = getAllItems('footer');
 
     return {
@@ -74,18 +62,9 @@ export function getStaticProps() {
             aboutItems,
             projectSectionItems,
             projects: LatestProject,
-            brandItems,
             services: HomePageServices,
             serviceSectionItems,
-            bannerTwoItems,
-            teamItems,
-            teamSectionItems,
-            testimonialItems,
-            testimonialSectionItems,
-            blogSectionItems,
-            blogs: LatestBlog,
-            newsletterItems,
-            footerItems,
+            footerItems
         },
     };
 }
@@ -96,18 +75,9 @@ HomePage.propTypes = {
     aboutItems: PropTypes.instanceOf(Object).isRequired,
     projects: PropTypes.instanceOf(Object).isRequired,
     projectSectionItems: PropTypes.instanceOf(Object).isRequired,
-    brandItems: PropTypes.instanceOf(Object).isRequired,
     services: PropTypes.instanceOf(Object).isRequired,
     serviceSectionItems: PropTypes.instanceOf(Object).isRequired,
-    bannerTwoItems: PropTypes.instanceOf(Object).isRequired,
-    teamItems: PropTypes.instanceOf(Object).isRequired,
-    teamSectionItems: PropTypes.instanceOf(Object).isRequired,
-    testimonialItems: PropTypes.instanceOf(Object).isRequired,
-    testimonialSectionItems: PropTypes.instanceOf(Object).isRequired,
-    blogs: PropTypes.instanceOf(Object).isRequired,
-    blogSectionItems: PropTypes.instanceOf(Object).isRequired,
-    newsletterItems: PropTypes.instanceOf(Object).isRequired,
-    footerItems: PropTypes.instanceOf(Object).isRequired,
+    footerItems: PropTypes.instanceOf(Object).isRequired
 };
 
 export default HomePage;
