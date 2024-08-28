@@ -6,9 +6,6 @@ import BannerThree from '../../components/banner/index-3';
 import CounterTwo from '../../components/counter/index-2';
 import LatestProject from '../../components/home-page/latest-project';
 import Footer from '../../components/layout/footer';
-import Newsletter from '../../components/newsletter/newsletter';
-import Team from '../../components/team';
-import Testimonial from '../../components/testimonial';
 import { getAllItems, getFeaturedItems } from '../../lib/items-util';
 
 function AboutPage({
@@ -16,26 +13,21 @@ function AboutPage({
     bannerThreeItems,
     projects,
     projectSectionItems,
-    teamItems,
-    teamSectionItems,
-    testimonialItems,
-    testimonialSectionItems,
-    newsletterItems,
     footerItems,
 }) {
     return (
         <>
             <Head>
-                <title>About Us - Oxybuild</title>
+                <title>About Us - AKT</title>
                 <meta
                     name="description"
-                    content="OxyBuild - Construction React Next JS Template Industry, Products Manufacturing Company, building companies, architecture firms, and the like can take to their advantage by using OxyBuild - Construction React Next JS Template."
+                    content="AKT - Al Katheery Trading & Consulting"
                 />
             </Head>
             <Breadcrumb
                 subTitle="What we do"
                 title="About us"
-                desc="Construction of itself, because it is pain some proper style design occur are pleasure"
+                desc="Over 43 years of industry presence, providing a deep understanding of civil, electrical, and oil & gas environmental projects."
             />
             <AboutOne aboutItems={aboutItems} />
             <BannerThree bannerThreeItems={bannerThreeItems} />
@@ -44,12 +36,7 @@ function AboutPage({
                 projects={projects}
                 projectSectionItems={projectSectionItems}
             />
-            <Team teamItems={teamItems} teamSectionItems={teamSectionItems} />
-            <Testimonial
-                testimonialItems={testimonialItems}
-                testimonialSectionItems={testimonialSectionItems}
-            />
-            <Newsletter newsletterItems={newsletterItems} />
+         
             <Footer footerItems={footerItems} />
         </>
     );

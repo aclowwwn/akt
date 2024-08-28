@@ -1,9 +1,9 @@
 ---
 id: 'hero-03'
 heroBG: 'slide-bg slide-bg-03'
-subtitle: 'Since 1995'
-desc: '<p class="text-white">Construction of itself, because it is pain, but because some proper style design occur in which toil and pain pleasure.</p>'
-title: '<h2 class="text-white">We Construct <br> your <span>Dream</span></h2>'
+subtitle: 'Since 1981'
+desc: '<p class="text-white"><b>Over 43 years of industry presence, providing a deep understanding of civil, electrical, and oil & gas projects.</b></p>'
+title: '<h2 class="text-white">Delivering Reliable <br> <span>Solutions</span></h2>'
 btnSecondaryText: 'Learn More'
 btnPrimaryText: 'Contact Us'
 ---

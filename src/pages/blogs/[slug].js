@@ -20,10 +20,10 @@ function BlogDetailPage({
     return (
         <>
             <Head>
-                <title>{blog.title} - Oxybuild</title>
+                <title>{blog.title} - AKT</title>
                 <meta
                     name="description"
-                    content="OxyBuild - Construction React Next JS Template Industry, Products Manufacturing Company, building companies, architecture firms, and the like can take to their advantage by using OxyBuild - Construction React Next JS Template."
+                    content="AKT - Al Katheery Trading & Consulting Est."
                 />
             </Head>
             <Breadcrumb

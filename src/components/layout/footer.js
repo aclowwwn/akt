@@ -15,12 +15,12 @@ function Footer({ footerItems }) {
                             <Row>
                                 <Col lg={{ span: 3 }}>
                                     <div className={classes.widget__item}>
-                                        <Link href="/" className={classes.logo}>
+                                        {/* <Link href="/" className={classes.logo}>
                                             <img
                                                 src={footerItem?.footerLogo}
                                                 alt={footerItem?.footerLogoAlt}
                                             />
-                                        </Link>
+                                        </Link> */}
                                         <p
                                             className={classes.desc}
                                             dangerouslySetInnerHTML={{
@@ -45,17 +45,16 @@ function Footer({ footerItems }) {
                                     </div>
                                 </Col>
                                 <Col
-                                    xl={{ span: 3 }}
-                                    lg={{ span: 2 }}
+                                    lg={{ span: 3 }}
                                     sm={{ span: 6 }}
-                                    className="ps-xl-80 pt-40 pt-lg-0"
+                                    className="ps-lg-50 pt-40 pt-lg-0"
                                 >
                                     <div className={classes.widget__item}>
                                         <h2 className={classes.widget__title}>
-                                            {footerItem?.informationTitle}
+                                            {footerItem?.quickLinkTitle}
                                         </h2>
                                         <ul className={classes.widget__list}>
-                                            {footerItem?.informationList?.map(
+                                            {footerItem?.quickLinkList?.map(
                                                 (item) => (
                                                     <li key={item.id}>
                                                         <Link
@@ -70,16 +69,17 @@ function Footer({ footerItems }) {
                                     </div>
                                 </Col>
                                 <Col
-                                    lg={{ span: 3 }}
+                                    xl={{ span: 3 }}
+                                    lg={{ span: 2 }}
                                     sm={{ span: 6 }}
-                                    className="ps-lg-50 pt-40 pt-lg-0"
+                                    className="ps-xl-80 pt-40 pt-lg-0"
                                 >
                                     <div className={classes.widget__item}>
                                         <h2 className={classes.widget__title}>
-                                            {footerItem?.quickLinkTitle}
+                                            {footerItem?.informationTitle}
                                         </h2>
                                         <ul className={classes.widget__list}>
-                                            {footerItem?.quickLinkList?.map(
+                                            {footerItem?.informationList?.map(
                                                 (item) => (
                                                     <li key={item.id}>
                                                         <Link

@@ -160,11 +160,6 @@ function Header() {
                                                 <span>About Us</span>
                                             </Link>
                                         </li>
-                                        <li>
-                                            <Link href="/services">
-                                                <span>Service</span>
-                                            </Link>
-                                        </li>
                                         <li className={classes.dropdown_holder}>
                                             <Link href="/projects/project-fullwidth">
                                                 <span>Projects</span>
@@ -176,64 +171,17 @@ function Header() {
                                             >
                                                 <li>
                                                     <Link href="/projects/project-2-columns">
-                                                        Project 2 Columns
+                                                        Dhofar University Roundabout
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/projects/project-gallery">
-                                                        Project Gallery
+                                                        Al Tawatir, Taqa
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/projects/project-slider">
-                                                        Project Slider
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li className={classes.dropdown_holder}>
-                                            <Link href="/">
-                                                <span>Pages</span>
-                                            </Link>
-                                            <ul
-                                                className={
-                                                    classes.dropdown_menu
-                                                }
-                                            >
-                                                <li>
-                                                    <Link href="/our-clients">
-                                                        Our Clients
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/our-team">
-                                                        Our Team
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/our-working-process">
-                                                        Our Working Process
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li className={classes.dropdown_holder}>
-                                            <Link href="/blogs/blog-fullwidth">
-                                                <span>Blogs</span>
-                                            </Link>
-                                            <ul
-                                                className={
-                                                    classes.dropdown_menu
-                                                }
-                                            >
-                                                <li>
-                                                    <Link href="/blogs/blog-leftsidebar">
-                                                        Blog Left Sidebar
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/blogs/blog-rightsidebar">
-                                                        Blog Right Sidebar
+                                                        Internal Asphalt Roads, Raysut
                                                     </Link>
                                                 </li>
                                             </ul>

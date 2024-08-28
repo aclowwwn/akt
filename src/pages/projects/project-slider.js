@@ -16,7 +16,7 @@ function ProjectSliderPage({
     return (
         <>
             <Head>
-                <title>Projects Slider - OxyBuild</title>
+                <title>Projects Slider - AKT</title>
                 <meta name="description" content="Projects Slider" />
             </Head>
             <Breadcrumb

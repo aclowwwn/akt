@@ -21,11 +21,11 @@ sidebarList:
         },
         {
             id: 'sidebarList-05',
-            listItem: 'Architect: <span class="text-primary">Oxybuild</span>',
+            listItem: 'Architect: <span class="text-primary">AKT</span>',
         },
         {
             id: 'sidebarList-06',
-            listItem: 'Contractor: <span class="text-primary">Oxybuild</span>',
+            listItem: 'Contractor: <span class="text-primary">AKT</span>',
         },
         {
             id: 'sidebarList-07',

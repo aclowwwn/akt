@@ -2,17 +2,10 @@ import Head from 'next/head';
 import PropTypes from 'prop-types';
 import AboutOne from '../components/about';
 import BannerOne from '../components/banner';
-import BannerTwo from '../components/banner/index-2';
-import BrandOne from '../components/brand';
-import Counter from '../components/counter';
 import Hero from '../components/home-page/hero';
 import HomePageServices from '../components/home-page/homepage-services';
-import LatestBlog from '../components/home-page/latest-blog';
 import LatestProject from '../components/home-page/latest-project';
 import Footer from '../components/layout/footer';
-import Newsletter from '../components/newsletter/newsletter';
-import Team from '../components/team';
-import Testimonial from '../components/testimonial';
 import { getAllItems, getFeaturedItems } from '../lib/items-util';
 
 function HomePage({
@@ -21,26 +14,17 @@ function HomePage({
     aboutItems,
     projects,
     projectSectionItems,
-    brandItems,
     services,
     serviceSectionItems,
-    bannerTwoItems,
-    teamItems,
-    teamSectionItems,
-    testimonialItems,
-    testimonialSectionItems,
-    blogs,
-    blogSectionItems,
-    newsletterItems,
     footerItems,
 }) {
     return (
         <>
             <Head>
-                <title>Home - Oxybuild</title>
+                <title>Home - AKT</title>
                 <meta
                     name="description"
-                    content="OxyBuild - Construction React Next JS Template Industry, Products Manufacturing Company, building companies, architecture firms, and the like can take to their advantage by using OxyBuild - Construction React Next JS Template."
+                    content="AKT - Al Katheery Trading & Consulting"
                 />
             </Head>
             <Hero heroItems={heroItems} />
@@ -54,7 +38,7 @@ function HomePage({
                 services={services}
                 serviceSectionItems={serviceSectionItems}
             />
-            <Counter />
+            {/* <Counter /> */}
             {/* <Newsletter newsletterItems={newsletterItems} /> */}
             <Footer footerItems={footerItems} />
         </>

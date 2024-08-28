@@ -1,10 +1,10 @@
 ---
 id: 'footer-01'
-footerLogo: '/images/logo/white.png'
+footerLogo: '/images/logo/akt-light.png'
 footerLogoAlt: 'Footer Logo'
-excerpt: 'Construction of itself, because it is are  <br/> but because some proper style design is occur in toil and pain pleasure'
+excerpt: 'Extensive Experience: Over 43 years of industry presence, providing a deep understanding of civil, electrical, and oil & gas environmental projects.'
 inquiry: 'For inquiry'
-inquiryNumber: '+12345 879 854'
+inquiryNumber: '+98745 214 785'
 informationTitle: 'Information'
 informationList:
     [
@@ -15,21 +15,7 @@ informationList:
             title: 'Recent Projects',
             path: 'projects',
         },
-        { id: 'informationList-04', title: 'Our Team', path: 'our-team' },
         { id: 'informationList-05', title: 'Contact us', path: 'contact' },
-    ]
-quickLinkTitle: 'Quick Links'
-quickLinkList:
-    [
-        { id: 'quickLinkList-01', title: 'Support Center', path: 'contact' },
-        { id: 'quickLinkList-02', title: 'Offers & Promotion', path: 'about' },
-        {
-            id: 'quickLinkList-03',
-            title: 'Terms & Conditions',
-            path: 'contact',
-        },
-        { id: 'quickLinkList-04', title: 'Payment Method', path: 'contact' },
-        { id: 'quickLinkList-05', title: 'Clients & Reviews', path: 'about' },
     ]
 contactInfoTitle: 'Contact Info'
 widgetAddress: '215 Central Road, North Street Central Park, <span class="text-primary">New York, USA</span>'
