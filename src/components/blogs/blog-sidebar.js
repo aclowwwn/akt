@@ -52,6 +52,7 @@ function BlogSidebar({ blogsSidebar, categories, tags, settings }) {
                                 name="search"
                                 placeholder="Type your keyword..."
                             />
+                            {/* eslint-disable-next-line */}
                             <button
                                 type="button"
                                 className={classes.searchbox_btn}

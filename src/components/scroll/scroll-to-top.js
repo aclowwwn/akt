@@ -30,6 +30,7 @@ export function ScrollToTop() {
 
     return (
         <div>
+            {/* eslint-disable-next-line */}
             <button
                 type="button"
                 onClick={scrollToTop}

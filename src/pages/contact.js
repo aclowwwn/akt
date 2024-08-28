@@ -5,7 +5,7 @@ import Contact from '../components/contact';
 import Footer from '../components/layout/footer';
 import { getAllItems } from '../lib/items-util';
 
-function ContactPage({ contactItems, newsletterItems, footerItems }) {
+function ContactPage({ contactItems, footerItems }) {
     return (
         <>
             <Head>

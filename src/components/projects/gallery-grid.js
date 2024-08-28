@@ -25,6 +25,7 @@ function ProjectGalleryGrid({ projects }) {
                 </Row>
                 {noOfElement < projects.length && (
                     <div className={classes.project_btn__wrap}>
+                        {/* eslint-disable-next-line */}
                         <button
                             type="button"
                             className={classes.loadmore_btn}

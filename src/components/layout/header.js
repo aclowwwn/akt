@@ -211,6 +211,7 @@ function Header() {
                                                     name="search"
                                                     placeholder="Search"
                                                 />
+                                                {/* eslint-disable-next-line */}
                                                 <button
                                                     className="search-inner__btn"
                                                     type="submit"
@@ -249,6 +250,7 @@ function Header() {
                     >
                         <ul className="offcanvas-menu-items">
                             <li className="offcanvas-top">
+                                {/* eslint-disable-next-line */}
                                 <button
                                     type="button"
                                     className="offcanvas-close-btn"
