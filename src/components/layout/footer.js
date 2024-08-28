@@ -169,7 +169,7 @@ function Footer({ footerItems }) {
                                             © {new Date().getFullYear()}{' '}
                                             AKT Est. Made with
                                             <span className={classes.icon}>
-                                                <FaIcons.FaHeart />
+                                                <FaIcons.FaMugHot />
                                             </span>
                                             by
                                             <a href="https://com-and.io/" className={classes.comand}>

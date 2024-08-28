@@ -1,45 +1,41 @@
 ---
 id: 'contact-01'
-image: '/images/contact/1-1-510x587.jpg'
+image: '/images/contact/JCB.jpg'
 imageAlt: 'Contact Image'
 pattern: '/images/contact/pattern.png'
 patternAlt: 'Contact Pattern'
-subTitle: 'Do you have a project? let’s start'
-title: 'Contact with us'
-desc: 'Construction of itself, because it is pain, but because some are proper style design occur in toil and pain pleasure we have a expert team some of the main features..'
+subTitle: 'Do you have a project? Let’s start'
+title: 'Get in touch us'
+desc: 'We are here to help — reach out to us for reliable solutions and expert support.'
 addressTitle: 'Office Address'
-addressDesc: 'Melbourne’s GPO 434 Bourke St. Dhaka VIC 3074, Australia'
+addressDesc: 'Alkatheery Trading & Contracting Est. 
+Bin Hayl Building, 1st Floor, Office No. 14, Ghala. 
+Sultanate of Oman'
 infoTitle: 'Contact Info'
 infoList:
     [
         {
             id: 'infoList-01',
             listText: 'Phone:',
-            path: 'tel://+096-12458-875-895',
-            listValue: '+12345 879 854',
-        },
-        {
-            id: 'infoList-02',
-            listText: 'Fax:',
-            path: 'tel://+096-12547-895-874',
-            listValue: '(+096) 12547 895 874',
+            path: 'tel://+98745 214 785',
+            listValue: '+98745 214 785',
         },
         {
             id: 'infoList-03',
             listText: 'Email:',
-            path: 'mailto://info@example.com',
-            listValue: 'info@example.com',
+            path: 'mailto://info@alkatheerytrading.com',
+            listValue: 'info@alkatheerytrading.com',
         },
         {
             id: 'infoList-04',
             listText: 'Web:',
             path: 'mailto://www.example.com',
-            listValue: 'www.example.com',
+            listValue: 'www.alkatheerytrading.com',
         },
     ]
 btnText: 'Submit'
 formTitle: 'Leave a Message'
-formDesc: 'Top rated construction packages we pleasure ationally obtain simple and easy'
+formDesc: 'Let us know how we can help'
 mapPattern: '/images/contact/pattern.png'
 mapPatternAlt: 'Map Pattern'
 ---

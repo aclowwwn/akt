@@ -511,7 +511,7 @@ iframe {
 .page {
     &_banner {
         &__bg {
-            background-image: url('/images/breadcrumb/bg/1.jpg');
+            background-image: url('/images/hero/1.jpg');
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -525,6 +525,7 @@ iframe {
         font-size: 24px;
         line-height: 30px;
         display: block;
+        color: $primary;
         position: relative;
         padding-left: 100px;
         &:before {
@@ -542,6 +543,7 @@ iframe {
         margin-bottom: 5px;
         padding-top: 15px;
         font-size: 88px;
+        color: $primary;
         line-height: 0.97;
         @include breakpoint(max-xs-device) {
             font-size: 50px;
@@ -549,6 +551,7 @@ iframe {
     }
     &_desc {
         max-width: 380px;
+        color: white;
     }
 }
 
