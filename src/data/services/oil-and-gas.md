@@ -1,7 +1,7 @@
 ---
 id: 'service-06'
-title: 'Oil and gas'
-mediumImage: 'md.png'
+title: 'Waste Removal'
+mediumImage: 'waste.png'
 largeImage: 'lg.jpg'
 detailBreadcrumbSubTitle: 'Single Service'
 detailBreadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'
