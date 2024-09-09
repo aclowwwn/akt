@@ -9,15 +9,15 @@ function ProjectFullwidthItem({ project }) {
     return (
         <Col lg={{ span: 4 }} md={{ span: 6 }}>
             <div className="project-item">
-                <Link href={linkPath} className="project-img">
+                {/* <Link href={linkPath} className="project-img"> */}
                     <img src={imagePath} alt={project?.title} />
-                </Link>
+                {/* </Link> */}
                 <div className="project-content">
                     <span className="sub-title">{project?.subTitle}</span>
                     <h3 className="title mb-0">
-                        <Link href={linkPath}>{project?.title}</Link>
+                        {project?.title}
+                        {/* <Link href={linkPath}>{project?.title}</Link> */}
                     </h3>
-                    <span>{project?.duration}</span>
                 </div>
             </div>
         </Col>

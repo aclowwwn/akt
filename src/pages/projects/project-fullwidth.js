@@ -23,7 +23,7 @@ function ProjectFullwidthPage({
                 desc="Over 43 years of industry presence, providing a deep understanding of civil, electrical, and oil & gas environmental projects."
             />
             <ProjectFullwidth projects={projects} />
-            <BannerFive bannerTwoItems={bannerTwoItems} />
+            {/* <BannerFive bannerTwoItems={bannerTwoItems} /> */}
             <Footer footerItems={footerItems} />
         </>
     );

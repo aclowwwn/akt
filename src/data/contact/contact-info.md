@@ -9,7 +9,7 @@ title: 'Get in touch us'
 desc: 'We are here to help — reach out to us for reliable solutions and expert support.'
 addressTitle: 'Office Address'
 addressDesc: 'Alkatheery Trading & Contracting Est. 
-Bin Hayl Building, 1st Floor, Office No. 14, Ghala. 
+H.O Salalah, Samharam Street, Industrial Area, Salalah , Post Box 645, Postal Code 211, 
 Sultanate of Oman'
 infoTitle: 'Contact Info'
 infoList:
@@ -17,8 +17,8 @@ infoList:
         {
             id: 'infoList-01',
             listText: 'Phone:',
-            path: 'tel://+98745 214 785',
-            listValue: '+98745 214 785',
+            path: 'tel://+968 232 122 46,',
+            listValue: '+968 232 122 46,',
         },
         {
             id: 'infoList-03',
@@ -29,7 +29,7 @@ infoList:
         {
             id: 'infoList-04',
             listText: 'Web:',
-            path: 'mailto://www.example.com',
+            path: 'mailto://www.alkatheerytrading.com',
             listValue: 'www.alkatheerytrading.com',
         },
     ]

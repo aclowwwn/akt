@@ -1,7 +1,7 @@
 ---
 title: 'Dhofar University, Salalah'
 image: '2.png'
-subTitle: 'RENOVATION'
+subTitle: 'ROAD CONSTRUCTION'
 duration: 'Duration: 08 month'
 breadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'
 groupImageOne: '/images/project-detail/1-1-226x245.jpg'

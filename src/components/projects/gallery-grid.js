@@ -38,7 +38,7 @@ function ProjectGalleryGrid({ projects }) {
                 {noOfElement > projects.length && (
                     <div className={classes.project_btn__wrap}>
                         <span className={classes.loadedText}>
-                            All item has been loaded!
+                            All items have been loaded!
                         </span>
                     </div>
                 )}

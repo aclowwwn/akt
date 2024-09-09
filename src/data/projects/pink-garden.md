@@ -1,7 +1,7 @@
 ---
 title: 'Al Tawatir, Taqa'
 image: '7.png'
-subTitle: 'ARCHITECTURE'
+subTitle: 'ROAD CONSTRUCTION'
 duration: 'Duration: 6 month'
 breadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'
 groupImageOne: '/images/project-detail/1-1-226x245.jpg'
