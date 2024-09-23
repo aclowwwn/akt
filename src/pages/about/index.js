@@ -31,12 +31,14 @@ function AboutPage({
             />
             <AboutOne aboutItems={aboutItems} />
             <BannerThree bannerThreeItems={bannerThreeItems} />
-            <CounterTwo />
+            <br />
+            <br />
             <LatestProject
                 projects={projects}
                 projectSectionItems={projectSectionItems}
             />
-         
+            <br />
+            <br />
             <Footer footerItems={footerItems} />
         </>
     );

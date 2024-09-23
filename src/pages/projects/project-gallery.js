@@ -28,13 +28,11 @@ function ProjectGalleryPage({
 
 export function getStaticProps() {
     const allItems = getAllItems('projects');
-    const bannerTwoItems = getAllItems('banner-2');
     const footerItems = getAllItems('footer');
 
     return {
         props: {
             projects: allItems,
-            bannerTwoItems,
             footerItems,
         },
     };
@@ -42,7 +40,6 @@ export function getStaticProps() {
 
 ProjectGalleryPage.propTypes = {
     projects: PropTypes.instanceOf(Object).isRequired,
-    bannerTwoItems: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,
 };
 
