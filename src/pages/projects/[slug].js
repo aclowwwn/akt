@@ -28,7 +28,7 @@ function ProjectDetailPage({
             <Breadcrumb
                 subTitle={project.subTitle}
                 title={project.title}
-                desc="Construction of itself, because it is pain some proper style design occur are pleasure"
+                desc="Over 43 years of industry presence, providing a deep understanding of civil, electrical, and oil & gas environmental projects."
             />
             <ProjectDetail
                 project={project}

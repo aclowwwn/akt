@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import PropTypes from 'prop-types';
-import BannerFive from '../../components/banner/index-5';
 import Breadcrumb from '../../components/breadcrumb';
 import Footer from '../../components/layout/footer';
 import ProjectFullwidth from '../../components/projects/fullwidth';
@@ -8,14 +7,13 @@ import { getAllItems } from '../../lib/items-util';
 
 function ProjectFullwidthPage({
     projects,
-    bannerTwoItems,
     footerItems,
 }) {
     return (
         <>
             <Head>
-                <title>Projects FullWidth - AKT</title>
-                <meta name="description" content="Projects FullWidth" />
+                <title>AKT Projects</title>
+                <meta name="description" content="AKT Projects" />
             </Head>
             <Breadcrumb
                 subTitle="See our latest"

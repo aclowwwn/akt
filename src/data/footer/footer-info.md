@@ -1,6 +1,6 @@
 ---
 id: 'footer-01'
-footerLogo: '/images/logo/akt-light.png'
+footerLogo: '/images/logo/akt-light.gif'
 footerLogoAlt: 'Footer Logo'
 excerpt: 'Extensive Experience: Over 43 years of industry presence, providing a deep understanding of civil, electrical, and oil & gas environmental projects.'
 inquiry: 'For inquiry'
@@ -9,7 +9,6 @@ informationTitle: 'Information'
 informationList:
     [
         { id: 'informationList-01', title: 'About us', path: 'about' },
-        { id: 'informationList-02', title: 'Our Services', path: 'services' },
         {
             id: 'informationList-03',
             title: 'Recent Projects',

@@ -14,13 +14,15 @@ function Footer({ footerItems }) {
                         <Container>
                             <Row>
                                 <Col lg={{ span: 3 }}>
-                                    <div className={classes.widget__item}>
-                                        {/* <Link href="/" className={classes.logo}>
+                                        <Link href="/" className={classes.logo}>
                                             <img
                                                 src={footerItem?.footerLogo}
                                                 alt={footerItem?.footerLogoAlt}
                                             />
-                                        </Link> */}
+                                        </Link>
+                                </Col>
+                                <Col lg={{ span: 3 }}>
+                                    <div className={classes.widget__item}>
                                         <p
                                             className={classes.desc}
                                             dangerouslySetInnerHTML={{
@@ -42,30 +44,6 @@ function Footer({ footerItems }) {
                                                 {footerItem?.inquiryNumber}
                                             </Link>
                                         </div>
-                                    </div>
-                                </Col>
-                                <Col
-                                    lg={{ span: 3 }}
-                                    sm={{ span: 6 }}
-                                    className="ps-lg-50 pt-40 pt-lg-0"
-                                >
-                                    <div className={classes.widget__item}>
-                                        <h2 className={classes.widget__title}>
-                                            {footerItem?.quickLinkTitle}
-                                        </h2>
-                                        <ul className={classes.widget__list}>
-                                            {footerItem?.quickLinkList?.map(
-                                                (item) => (
-                                                    <li key={item.id}>
-                                                        <Link
-                                                            href={`/${item.path}`}
-                                                        >
-                                                            {item.title}
-                                                        </Link>
-                                                    </li>
-                                                )
-                                            )}
-                                        </ul>
                                     </div>
                                 </Col>
                                 <Col
