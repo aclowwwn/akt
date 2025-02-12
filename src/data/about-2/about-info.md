@@ -9,7 +9,7 @@ singleImageOneAlt: 'About Single Image'
 singleImageTwo: '/images/about/2-3-204x211.jpg'
 singleImageTwoAlt: 'About Single Image'
 title: 'Provide best Services for you'
-subTitle: 'Provide the best construction services for our client with their satisfaction'
+subTitle: 'Provide the best construction services for our clients'
 desc: 'aaaa'
 listItem:
     [

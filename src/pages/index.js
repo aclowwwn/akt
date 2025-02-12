@@ -46,7 +46,7 @@ function HomePage({
 export function getStaticProps() {
     const heroItems = getAllItems('heros');
     const bannerItems = getAllItems('banner');
-    const aboutItems = getAllItems('about');
+    const aboutItems = getAllItems('abouthero');
     const projectSectionItems = getAllItems('project-section');
     const projects = getAllItems('projects');
     const LatestProject = getFeaturedItems(projects);
