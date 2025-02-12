@@ -5,5 +5,4 @@ excerpt: 'To deliver high-quality, reliable engineering and waste management sol
 path: '/about'
 dataCount: '01'
 dynamicClassName: 'item secondary__bg'
-btnText: 'Read more'
 ---

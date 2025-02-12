@@ -171,7 +171,8 @@ function Header() {
                                             >
                                                 <li>
                                                     <Link href="/projects/project-2-columns">
-                                                        Dhofar University Roundabout
+                                                        Dhofar University
+                                                        Roundabout
                                                     </Link>
                                                 </li>
                                                 <li>
@@ -181,7 +182,8 @@ function Header() {
                                                 </li>
                                                 <li>
                                                     <Link href="/projects/project-slider">
-                                                        Internal Asphalt Roads, Raysut
+                                                        Internal Asphalt Roads,
+                                                        Raysut
                                                     </Link>
                                                 </li>
                                             </ul>
@@ -228,15 +230,7 @@ function Header() {
                     <div className={`${classes.fixed__logo} d-none d-lg-flex`}>
                         <Link href="/" className={classes.logo}>
                             <img
-                                style={{width: "90%", marginLeft: 20}}
-                                src="/images/logo/akt-new.png"
-                                alt="Header Dark Logo"
-                            />
-                        </Link>
-                        <Link href="/" className={classes.logo}>
-                            <img
-                                style={{width: "130%"}}
-                                src="/images/logo/akt-new-title.png"
+                                src="/images/logo/akt-og-logo.png"
                                 alt="Header Dark Logo"
                             />
                         </Link>

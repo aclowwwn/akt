@@ -21,7 +21,7 @@ function ServiceItem({ service }) {
                     <Link href={linkPath}>{service?.title}</Link>
                 </h2>
                 <div className={classes.icon}>
-                    <Link href="mailto://info@example.com" passHref>
+                    <Link href="mailto://info@alkatheerytrading.com" passHref>
                         <IoAddSharp />
                     </Link>
                 </div>

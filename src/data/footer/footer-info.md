@@ -1,6 +1,6 @@
 ---
 id: 'footer-01'
-footerLogo: '/images/logo/akt-light.gif'
+footerLogo: '/images/logo/akt-logo.png'
 footerLogoAlt: 'Footer Logo'
 excerpt: 'Extensive Experience: Over 43 years of industry presence, providing a deep understanding of civil, electrical, and oil & gas environmental projects.'
 inquiry: 'For inquiry'
@@ -16,11 +16,10 @@ informationList:
         },
         { id: 'informationList-05', title: 'Contact us', path: 'contact' },
     ]
+
 contactInfoTitle: 'Contact Info'
-widgetAddress: '215 Central Road, North Street Central Park, <span class="text-primary">New York, USA</span>'
-widgetNumber: '+12345 698 745 / +32145 852 785'
-additionWidgetAddress: '75, Victoriya Street, New Town Park Road, <span class="text-primary">Sydney, Australia</span>'
-additionWidgetNumber: '+98745 258 102 / +98745 612 301'
+widgetAddress: 'Alkatheery Trading & Contracting Est. H.O Salalah, Samharam Street, Industrial Area, <span class="text-primary">Salalah, Oman</span>'
+widgetNumber: '+968 232 122 46'
 socialList:
     [
         {

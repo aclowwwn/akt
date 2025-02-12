@@ -7,5 +7,4 @@ excerpt3: 'Sustainable Practices.'
 path: '/projects/project-fullwidth'
 dataCount: '03'
 dynamicClassName: 'item secondary__bg'
-btnText: 'Read more'
 ---

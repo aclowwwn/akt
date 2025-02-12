@@ -154,7 +154,7 @@
 .fixed {
     &__logo {
         background-color: $secondary;
-    background-image: url('/images/header/header.png');
+        background-image: url('/images/header/header.png');
         width: 28%;
         height: 100%;
         position: absolute;
@@ -172,6 +172,7 @@
         .logo {
             margin: auto 90px auto auto;
             display: block;
+            width: 200px !important;
             @include breakpoint(xxl-device) {
                 width: calc(100% - 60px);
                 margin: 0 auto;
@@ -179,6 +180,9 @@
             @include breakpoint(max-xl-device) {
                 width: calc(100% - 60px);
                 margin: 0 auto;
+            }
+            img {
+                max-width: 250% !important;
             }
         }
     }

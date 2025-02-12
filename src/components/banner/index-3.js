@@ -28,26 +28,18 @@ function BannerThree({ bannerThreeItems }) {
                                     <h2 className={classes.title}>
                                         {bannerThreeItem?.title}
                                     </h2>
-                                    {bannerThreeItem?.excerpt ?
-                                    <p className={classes.desc}>
-                                        {bannerThreeItem?.excerpt}
-                                    </p>:
-                                    <ul className={classes.desc}>
-                                        <li>{bannerThreeItem?.excerpt1}</li>
-                                        <li>{bannerThreeItem?.excerpt2}</li>
-                                        <li>{bannerThreeItem?.excerpt3}</li>
-                                        <br />
-                                    </ul>
-                                    }
-                                    <Link
-                                        href={`${bannerThreeItem.path}`}
-                                        className={classes.link__btn}
-                                    >
-                                        {bannerThreeItem?.btnText}
-                                        <span className={classes.icon}>
-                                            <IoArrowForwardOutline />
-                                        </span>
-                                    </Link>
+                                    {bannerThreeItem?.excerpt ? (
+                                        <p className={classes.desc}>
+                                            {bannerThreeItem?.excerpt}
+                                        </p>
+                                    ) : (
+                                        <ul className={classes.desc}>
+                                            <li>{bannerThreeItem?.excerpt1}</li>
+                                            <li>{bannerThreeItem?.excerpt2}</li>
+                                            <li>{bannerThreeItem?.excerpt3}</li>
+                                            <br />
+                                        </ul>
+                                    )}
                                 </div>
                             </div>
                         </Col>

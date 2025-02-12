@@ -34,7 +34,10 @@ function LatestProject({ projects, projectSectionItems, settings }) {
         <div>
             <div className={classes.bg}>
                 <div className={classes.btn__wrap}>
-                    <Link href="/projects" className={classes.btn}>
+                    <Link
+                        href="/projects/project-fullwidth"
+                        className={classes.btn}
+                    >
                         <span>View More</span>
                     </Link>
                 </div>

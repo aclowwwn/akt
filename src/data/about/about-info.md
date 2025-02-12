@@ -11,7 +11,7 @@ experienceYear: '43'
 ourProgress: 'Years of <span>Experience</span>'
 experienceImage: '/images/about/avatar.png'
 experienceAlt: 'Avatar'
-aboutSubtitle: 'Provide the best Constructing services for our client with their satisfaction'
+aboutSubtitle: 'Provide the best constructiong services for our client with their satisfaction'
 aboutDesc: 'AKTC delivers expert civil engineering services, specializing in road construction, earthmoving, and infrastructure development with a focus on precision, safety, and reliability.'
 listItem:
     [

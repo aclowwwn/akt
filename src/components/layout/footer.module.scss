@@ -2,19 +2,22 @@
 @import '../../styles/abstract/custom-mixins';
 
 .bg {
-    background-image: url('/images/footer/bg/footer.png');
+    background-image: url('/images/footer/bg/footer3.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 80px;
 }
 .logo {
-    width: 250px;
-    height: 250px;
+    img {
+        width: 150px;
+        height: 150px;
+    }
 }
 .desc {
     margin-bottom: 25px;
-    color: #F7F7FF;
+    color: #f7f7ff;
+    font-weight: bold;
     font-size: 16px;
 }
 .inquiry {
@@ -25,7 +28,8 @@
         line-height: 1.2;
     }
     &_number {
-        color: #F7F7FF;
+        color: #f7f7ff;
+        font-weight: bold;
         font-size: 20px;
         &:hover {
             color: $primary;
@@ -37,7 +41,7 @@
         .widget {
             &_address,
             &_number {
-                color: #F7F7FF;
+                color: #f7f7ff;
             }
             &_address {
                 margin-bottom: 5px;
@@ -62,7 +66,7 @@
                 padding-bottom: 15px;
             }
             a {
-                color: #F7F7FF;
+                color: #f7f7ff;
                 font-size: 18px;
                 &:hover {
                     color: $white;
@@ -95,7 +99,7 @@
             margin-right: 20px;
         }
         a {
-            color: #F7F7FF;
+            color: #f7f7ff;
             padding: 5px 10px;
             display: flex;
             align-items: center;
@@ -117,7 +121,7 @@
             flex-wrap: wrap;
         }
         &.text {
-            color: #F7F7FF;
+            color: #f7f7ff;
         }
         &.icon {
             color: #dc3545;
@@ -125,7 +129,7 @@
             margin-right: 5px;
         }
         a {
-            color: #F7F7FF;
+            color: #f7f7ff;
             margin-left: 5px;
             &:hover {
                 color: #dc3545;

@@ -14,12 +14,12 @@ function Footer({ footerItems }) {
                         <Container>
                             <Row>
                                 <Col lg={{ span: 3 }}>
-                                        <Link href="/" className={classes.logo}>
-                                            <img
-                                                src={footerItem?.footerLogo}
-                                                alt={footerItem?.footerLogoAlt}
-                                            />
-                                        </Link>
+                                    <Link href="/" className={classes.logo}>
+                                        <img
+                                            src={footerItem?.footerLogo}
+                                            alt={footerItem?.footerLogoAlt}
+                                        />
+                                    </Link>
                                 </Col>
                                 <Col lg={{ span: 3 }}>
                                     <div className={classes.widget__item}>
@@ -126,31 +126,20 @@ function Footer({ footerItems }) {
                     <div className={classes.bottom}>
                         <Container>
                             <Row>
-                                <Col md={{ span: 6 }} sm={{ span: 4 }}>
-                                    <ul className={classes.social}>
-                                        {footerItem?.socialList?.map((item) => {
-                                            const Social =
-                                                FaIcons[item.socialIcon];
-                                            return (
-                                                <li key={item.id}>
-                                                    <Link href={`${item.path}`}>
-                                                        <Social />
-                                                    </Link>
-                                                </li>
-                                            );
-                                        })}
-                                    </ul>
-                                </Col>
+                                <Col md={{ span: 6 }} sm={{ span: 4 }} />
                                 <Col md={{ span: 6 }} sm={{ span: 8 }}>
                                     <div className={classes.copyright}>
                                         <span className={classes.text}>
-                                            © {new Date().getFullYear()}{' '}
-                                            AKT Est. Made with
+                                            © {new Date().getFullYear()} AKT
+                                            Est. Made with
                                             <span className={classes.icon}>
                                                 <FaIcons.FaMugHot />
                                             </span>
                                             by
-                                            <a href="https://com-and.io/" className={classes.comand}>
+                                            <a
+                                                href="https://com-and.io/"
+                                                className={classes.comand}
+                                            >
                                                 com&
                                             </a>
                                         </span>

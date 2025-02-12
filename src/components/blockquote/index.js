@@ -4,7 +4,7 @@ function Blockquote() {
     return (
         <div className={classes.area}>
             <p className={classes.desc}>
-                Provide the best Constructin services for our client with their
+                Provide the best construction services for our client with their
                 more we have expert team, modern equipments and quality
                 materials obtain pain of itself, because it is pain, but because
                 occasionally circumstances occur

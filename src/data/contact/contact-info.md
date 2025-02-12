@@ -29,7 +29,7 @@ infoList:
         {
             id: 'infoList-04',
             listText: 'Web:',
-            path: 'mailto://www.alkatheerytrading.com',
+            path: 'www.alkatheerytrading.com',
             listValue: 'www.alkatheerytrading.com',
         },
     ]
