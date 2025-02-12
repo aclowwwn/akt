@@ -5,10 +5,7 @@ import Footer from '../../components/layout/footer';
 import ProjectSliderTwo from '../../components/projects/project-slider-2';
 import { getAllItems } from '../../lib/items-util';
 
-function ProjectSliderPage({
-    projects,
-    footerItems,
-}) {
+function ProjectSliderPage({ projects, footerItems }) {
     return (
         <>
             <Head>

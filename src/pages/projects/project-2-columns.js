@@ -5,10 +5,7 @@ import Footer from '../../components/layout/footer';
 import ProjectTwoColumns from '../../components/projects/two-columns';
 import { getAllItems } from '../../lib/items-util';
 
-function ProjectTwoColumnsPage({
-    projects,
-    footerItems,
-}) {
+function ProjectTwoColumnsPage({ projects, footerItems }) {
     return (
         <>
             <Head>

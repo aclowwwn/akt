@@ -5,12 +5,10 @@ function ProjectSliderItem({ project }) {
 
     return (
         <div className="project-item">
-                <img src={imagePath} alt={project?.title} />
+            <img src={imagePath} alt={project?.title} />
             <div className="project-content">
                 <span className="sub-title">{project?.subTitle}</span>
-                <h3 className="title mb-0">
-                    {project?.title}
-                </h3>
+                <h3 className="title mb-0">{project?.title}</h3>
             </div>
         </div>
     );

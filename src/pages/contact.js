@@ -15,11 +15,7 @@ function ContactPage({ contactItems, footerItems }) {
                     content="AKT - AKT - Al Katheery Trading & Consulting Est."
                 />
             </Head>
-            <Breadcrumb
-                subTitle="Contact us"
-                title="Get in Touch"
-                desc=""
-            />
+            <Breadcrumb subTitle="Contact us" title="Get in Touch" desc="" />
             <Contact contactItems={contactItems} />
             <Footer footerItems={footerItems} />
         </>

@@ -5,10 +5,7 @@ import Footer from '../../components/layout/footer';
 import ProjectFullwidth from '../../components/projects/fullwidth';
 import { getAllItems } from '../../lib/items-util';
 
-function ProjectFullwidthPage({
-    projects,
-    footerItems,
-}) {
+function ProjectFullwidthPage({ projects, footerItems }) {
     return (
         <>
             <Head>

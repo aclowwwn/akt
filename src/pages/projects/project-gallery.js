@@ -5,10 +5,7 @@ import Footer from '../../components/layout/footer';
 import ProjectGallery from '../../components/projects/gallery';
 import { getAllItems } from '../../lib/items-util';
 
-function ProjectGalleryPage({
-    projects,
-    footerItems,
-}) {
+function ProjectGalleryPage({ projects, footerItems }) {
     return (
         <>
             <Head>

@@ -112,7 +112,7 @@ function Contact({ contactItems }) {
                                     </div>
                                 </form>
                             </Col>
-                            
+
                             <Col lg={{ span: 6 }} className="ps-lg-50">
                                 <div className="map_with__pattern">
                                     <iframe
